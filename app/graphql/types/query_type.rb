@@ -13,5 +13,10 @@ module Types
     def test_field
       "Hello World!"
     end
+
+    field :blog, BlogType, null: false
+    def blog
+      context[:blog]
+    end
   end
 end

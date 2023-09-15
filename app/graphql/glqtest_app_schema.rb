@@ -1,4 +1,4 @@
-class GQLtestAppSchema < GraphQL::Schema
+class GlqtestAppSchema < GraphQL::Schema
   mutation(Types::MutationType)
   query(Types::QueryType)
 
